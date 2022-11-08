@@ -6,7 +6,7 @@ import models.MultipleSeries
 
 import java.io.File
 
-trait CSVFileReader[X : Ordering, Y] extends SeriesReader[MulitpleSeries[X, List[Y]]] {
+trait CSVFileReader[X : Ordering, Y] extends SeriesReader[MultipleSeries[X, List[Y]]] {
 
   val file: File
   val stringToX: String => X
