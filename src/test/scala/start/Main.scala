@@ -21,5 +21,12 @@ object Main extends App {
   * https://docs.scala-lang.org/scala3/book/methods-main-methods.html parte Command Lines Arguments.
   * chiamo il metodo come voglio, deve prendere la directory, i file, gli indexer,ecc... legge da cartella,
   * cicla sui file, leggi i file, plotta e crea i PNG,ecc*/
+  /* configurare per fare sì che mostri due specifiche dimensioni:
+  posso farne 3:
+  -AVERAGE VALUES
+  -IL PRIMO VALORE (localWarning Min)
+  -IL SECONDO VALORE (localWarning Max)
+  */
   plotter.show
+  plotter.toPNG("./src/test/plotresults/chart.png")
 }

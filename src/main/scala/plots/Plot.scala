@@ -10,5 +10,5 @@ trait Plot {
 
   def show: Unit = plot.show(title)
 
-  def toPNG(file: String, resolution: (Int, Int)): Unit = plot.saveAsPNG(file, resolution)
+  def toPNG(file: String): Unit = plot.saveAsPNG(file)
 }
