@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575614af-d574-4811-befb-42544e16653a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumPlot.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/readFiles/ReadFiles.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/readFiles/implementation/ListFiles.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/Plot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/Plot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/plotresults/chart.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/start/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/start/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +51,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/TesiLaureaProject"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/TesiLaureaProject&quot;
   }
-}]]></component>
+}</component>
   <component name="ScalaProjectSettings">
     <option name="scala3DisclaimerShown" value="true" />
   </component>
