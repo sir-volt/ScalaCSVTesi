@@ -7,7 +7,6 @@ trait Plot {
   val title: String
 
   def plot: XYChart
-
   def show: Unit = plot.show(title)
 
   def toPNG(file: String): Unit = plot.saveAsPNG(file)
