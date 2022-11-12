@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575614af-d574-4811-befb-42544e16653a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/Plot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/Plot.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumPlot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumPlot.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
