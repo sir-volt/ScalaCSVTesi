@@ -3,6 +3,7 @@ package input.csv
 import com.github.tototoshi.csv.*
 import input.SeriesReader
 import models.MultipleSeries
+import models.implementation.ListMultipleSeries
 
 import java.io.File
 

@@ -1,4 +1,4 @@
-package input.csv
+package models.implementation
 
 import models.MultipleSeries
 

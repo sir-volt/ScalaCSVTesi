@@ -1,7 +1,7 @@
 package plotTest
 
-import input.csv.ListMultipleSeries
 import input.csv.implementation.DoubleCSVFileReader
+import models.implementation.ListMultipleSeries
 import plots.implementation.{DoubleAveragePlot, DoubleSpecificColumPlot}
 import org.junit.Test
 import org.junit.Assert.*

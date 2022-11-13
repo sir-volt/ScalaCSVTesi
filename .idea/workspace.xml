@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575614af-d574-4811-befb-42544e16653a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/commandLineTest/commandLineTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaCSVTesi-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaCSVTesi-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaCSVTesi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaCSVTesi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/input/csv/CSVFileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/input/csv/CSVFileReader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/input/csv/ListMultipleSeries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/implementation/ListMultipleSeries.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/start/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/start/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/plotTest/PlotTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/plotTest/PlotTest.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
