@@ -7,6 +7,7 @@ lazy val root = (project in file("."))
     name := "ScalaCSVTesi",
     libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % Test,
     libraryDependencies += "com.github.tototoshi" %% "scala-csv" % "1.3.10",
-    libraryDependencies += "de.sciss" %% "scala-chart" % "0.8.0"
+    libraryDependencies += "de.sciss" %% "scala-chart" % "0.8.0",
+    libraryDependencies += "com.github.scopt" %% "scopt" % "X.Y.Z"
   )
 
