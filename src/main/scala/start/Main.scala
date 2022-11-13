@@ -1,11 +1,11 @@
 package start
 
 import java.io.File
-/*
+import start.Config
 import scopt.OParser
 
 class Main {
-  val parser = new scopt.OptionParser[Unit]("scopt") {
+  val parser = new scopt.OptionParser[Config]("scopt") {
     head("scopt", "4.x")
 
     opt[Int]('f', "foo")
@@ -18,4 +18,4 @@ class Main {
       .foreach(x => c = c.copy(out = x))
       .text("out is a required file property")
   }
-}*/
+}
