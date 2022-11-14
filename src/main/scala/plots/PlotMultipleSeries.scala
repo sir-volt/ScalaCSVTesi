@@ -7,10 +7,10 @@ import scala.collection.immutable.LinearSeq
 
 trait PlotMultipleSeries[X : Numeric, Y : Numeric, L <: LinearSeq[Y]] extends Plot {
   val data: MultipleSeries[X, L]
-  val aggregationStrategy: L => Y
+  val extractionYStrategy: L => Y
 
   override def plot: XYChart = {
-    val d = for((x, y) <- data.entries) yield (x, aggregationStrategy(y))
+    val d = for((x, y) <- data.entries) yield (x, extractionYStrategy(y))
     given datasetConverter: ToXYDataset[LinearSeq[(X, Y)]] = ToIntervalXYDataset.FromTuple2s
     XYLineChart(d)
   }
