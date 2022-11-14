@@ -2,7 +2,7 @@ package start
 
 import input.csv.implementation.DoubleCSVFileReader
 import de.sciss.chart.api.*
-import plots.implementation.{DoubleAveragePlot, DoubleSpecificColumPlot}
+import plots.implementation.{DoubleAveragePlot, DoubleSpecificColumnPlot}
 import readFiles.implementation.ListFiles
 import scala.io.StdIn.*
 
@@ -31,7 +31,7 @@ object Main extends App {
   while columnChosen < 0 || columnChosen > entriesSize do
     println("You put a wrong value. Try again:")
     columnChosen = readInt()
-  val plotter = new DoubleSpecificColumPlot(series,columnChosen)
+  val plotter = new DoubleSpecificColumnPlot(series,columnChosen)
 
   /*crea un object con il @main che legge ciclo di file da riga di comando usando la pagina trovata
   * https://docs.scala-lang.org/scala3/book/methods-main-methods.html parte Command Lines Arguments.

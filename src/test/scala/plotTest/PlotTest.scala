@@ -2,7 +2,7 @@ package plotTest
 
 import input.csv.implementation.DoubleCSVFileReader
 import models.implementation.ListMultipleSeries
-import plots.implementation.{DoubleAveragePlot, DoubleSpecificColumPlot}
+import plots.implementation.{DoubleAveragePlot, DoubleSpecificColumnPlot}
 import org.junit.Test
 import org.junit.Assert.*
 
@@ -17,7 +17,7 @@ class PlotTest {
 
   @Test
   def testColumnPlot() = {
-    val plotter = new DoubleSpecificColumPlot(testValues,testColumn)
+    val plotter = new DoubleSpecificColumnPlot(testValues,testColumn)
     assertNotNull(plotter)
     assertNotNull(plotter.show)
     plotter.toPNG("./src/test/plotresults/testColumn.png")
