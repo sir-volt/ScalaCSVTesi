@@ -9,7 +9,7 @@ import scala.io.StdIn.*
 import java.io.File
 import java.nio.file.Paths
 
-object Main extends App {
+object TestMain extends App {
   val filesList = new ListFiles("src/test/resources").getListOfFiles
   println("choose which file you want to study from 0 to " + (filesList.size - 1) + ":")
   var fileChosen = readInt()
@@ -31,7 +31,7 @@ object Main extends App {
   while columnChosen < 0 || columnChosen > entriesSize do
     println("You put a wrong value. Try again:")
     columnChosen = readInt()
-  val plotter = new DoubleSpecificColumnPlot(series,columnChosen)
+  val plotter = new DoubleSpecificColumnPlot(series,columnChosen, (500, 500))
 
   /*crea un object con il @main che legge ciclo di file da riga di comando usando la pagina trovata
   * https://docs.scala-lang.org/scala3/book/methods-main-methods.html parte Command Lines Arguments.

@@ -11,3 +11,6 @@ lazy val root = (project in file("."))
     libraryDependencies += "com.github.scopt" %% "scopt" % "4.1.0"
   )
 
+Compile / mainClass := Some("start.Main")
+
+// addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.6")

@@ -1,16 +1,13 @@
 package start
 
 import java.io.File
+import java.nio.file.Path
+
 case class Config(
-                   foo: Int = -1,
-                   out: File = new File("."),
-                   xyz: Boolean = false,
-                   libName: String = "",
-                   maxCount: Int = -1,
-                   verbose: Boolean = false,
-                   debug: Boolean = false,
-                   mode: String = "",
-                   files: Seq[File] = Seq(),
-                   keepalive: Boolean = false,
-                   jars: Seq[File] = Seq(),
-                   kwargs: Map[String, String] = Map())
+  separator: Char = ' ',
+  commentSymbol: String = "#",
+  width: Int = 0,
+  height: Int = 0,
+  input: Path = null,
+  output: Path = null,
+  column: Int = 0)

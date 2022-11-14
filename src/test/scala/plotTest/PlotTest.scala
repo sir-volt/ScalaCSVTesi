@@ -17,7 +17,7 @@ class PlotTest {
 
   @Test
   def testColumnPlot() = {
-    val plotter = new DoubleSpecificColumnPlot(testValues,testColumn)
+    val plotter = new DoubleSpecificColumnPlot(testValues,testColumn, (500, 500))
     assertNotNull(plotter)
     assertNotNull(plotter.show)
     plotter.toPNG("./src/test/plotresults/testColumn.png")

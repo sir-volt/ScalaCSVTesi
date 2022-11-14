@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="575614af-d574-4811-befb-42544e16653a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaCSVTesi-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaCSVTesi-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/input/csv/CSVFileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/input/csv/CSVFileReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/PlotMultipleSeries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/PlotMultipleSeries.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/Plot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/Plot.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleAveragePlot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleAveragePlot.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumPlot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumPlot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumnPlot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/plots/implementation/DoubleSpecificColumnPlot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/start/Config.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/start/Config.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/start/configMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/start/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/plotTest/PlotTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/plotTest/PlotTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/start/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/start/TestMain.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,23 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ScalaCSVTesi" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ScalaCSVTesi" type="f1a62948:ProjectNode" />
+                <item name="ScalaCSVTesi" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ScalaCSVTesi" type="f1a62948:ProjectNode" />
+                <item name="ScalaCSVTesi" type="2d1252cf:ModuleNode" />
+                <item name="sbt tasks" type="d9357504:SbtViewContributor$SbtTasksGroupNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -57,6 +78,29 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/TesiLaureaProject&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.plotCSV">
+    <configuration name="plotCSV" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="start.Main" />
+      <module name="ScalaCSVTesi" />
+      <option name="PROGRAM_PARAMETERS" value="--input &quot;./src/test/resources/&quot; --output &quot;./src/test/plotresults/&quot; --column $Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scalacsvtesi_3-0.1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/scala-3.1.3/scalacsvtesi_3-0.1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.plotCSV" />
+      <item itemvalue="JAR Application.scalacsvtesi_3-0.1.0-SNAPSHOT.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.scalacsvtesi_3-0.1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ScalaProjectSettings">
     <option name="scala3DisclaimerShown" value="true" />
   </component>
