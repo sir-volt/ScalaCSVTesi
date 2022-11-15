@@ -66,7 +66,7 @@ object Main {
   }
 
   def start(config: Config): Unit = {
-    def strategy(input: File, output: String) = {
+    def strategy(input: File, output: String): Unit = {
       println(input.toString + " -> " + output)
       val reader = new DoubleCSVFileReader(input, config.separator, config.commentSymbol)
       val series = reader.read
