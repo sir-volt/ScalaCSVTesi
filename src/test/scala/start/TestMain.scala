@@ -33,18 +33,6 @@ object TestMain extends App {
     columnChosen = readInt()
   val plotter = new DoubleSpecificColumnPlot(series,columnChosen, (500, 500))
 
-  /*crea un object con il @main che legge ciclo di file da riga di comando usando la pagina trovata
-  * https://docs.scala-lang.org/scala3/book/methods-main-methods.html parte Command Lines Arguments.
-  * chiamo il metodo come voglio, deve prendere la directory, i file, gli indexer,ecc... legge da cartella,
-  * cicla sui file, leggi i file, plotta e crea i PNG,ecc*/
-  /* configurare per fare sì che mostri due specifiche dimensioni:
-  posso farne 3:
-  -AVERAGE VALUES
-  -IL PRIMO VALORE (localWarning Min)
-  -IL SECONDO VALORE (localWarning Max)
-  */
-  //plotter.show
-  //plotter.toPNG("./src/test/plotresults/chart.png")
   plotter.show
   plotter.toPNG("./src/test/plotresults/casestudy-" + fileChosen + "-column-" + columnChosen +".png")
 }
