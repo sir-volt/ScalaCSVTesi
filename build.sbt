@@ -1,5 +1,4 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
-
 ThisBuild / scalaVersion := "3.1.3"
 
 lazy val root = (project in file("."))
@@ -13,4 +12,4 @@ lazy val root = (project in file("."))
 
 Compile / mainClass := Some("start.Main")
 
-// addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.6")
+//addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.6")
