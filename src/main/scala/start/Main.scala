@@ -79,7 +79,7 @@ object Main {
       strategy(config.input.toFile, config.output.toString)
     } else {
       val filesList = new ListFiles(config.input.toString).getListOfFiles
-      filesList.foreach(f => strategy(f, config.output.resolve(f.getName + ".png").toString))
+      filesList.foreach(f => strategy(f, config.output.resolve(f.getName.replace(".txt","-column" + config.column + ".png")).toString))
     }
   }
 }

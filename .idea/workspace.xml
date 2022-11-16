@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="575614af-d574-4811-befb-42544e16653a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/commandLineTest/commandLineTest.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/start/TestMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/start/TestMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/start/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/start/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
